@@ -17,9 +17,9 @@ An all-in-one command line notes manager made for college students writing their
 
 ### Manual
 ```bash
-mkdir -p ~/.local/bin
-curl -o ~/.local/bin/noteman https://raw.githubusercontent.com/NURBLuigi/noteman/main/noteman.sh
-chmod +x ~/.local/bin/noteman
+sudo mkdir -p /usr/local/bin
+sudo curl -o /usr/local/bin/noteman https://raw.githubusercontent.com/NURBLuigi/noteman/main/noteman.sh
+sudo chmod +x /usr/local/bin/noteman
 ```
 
 ## Usage
