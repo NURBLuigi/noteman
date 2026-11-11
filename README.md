@@ -30,7 +30,7 @@ noteman
 ```
 and all of the necessary configuration files will be generated in ```~/.config/noteman/```
 
-It is recommended to go on and edit the configuration file to your likings especially if you do not want your note stored in your home directory or you use a text editor/pdf viewer other than vim or zathura.
+It is recommended to go on and edit the configuration file to your likings especially if you do not want your notes stored in your home directory or you use a text editor/pdf viewer other than vim or zathura.
 
 **Default configuration:**
 ```bash
