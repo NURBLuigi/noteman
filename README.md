@@ -89,9 +89,9 @@ _________________________________________________________________
 All commands follow the format ```cmd arg1 arg2 arg3```, or you may optionally type ```up``` to move up a directory.
 
 - Commands are the same as the ones from above just not as a flag (ex. read, write, make, list, delete)
-- Your arguments depend on the directory that you are in just like in normal command like navigation.
+- Your arguments depend on the directory that you are in just like in normal command line navigation.
   - ex. If you are inside a subject directory and in make mode, you must type ```make [chapter] [note]``` to create a new notespace
-  - If you are in any other mode, then ```[command] [subject] [note]``` or ```[command] [note]``` if you are inside of a subject directory will suffice since notes are automatically detected regardless of chapter
+  - If you are in any other mode, then ```[command] [subject] [note]``` or ```[command] [note]``` (if you are inside of a subject directory) will suffice since notes are automatically detected regardless of chapter
 
 ## Templates and Customization
 One of the other features is the option to load in custom LaTeX templates on a per-subject basis whenever you create a new notespace. All templates are stored in 
