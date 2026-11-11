@@ -73,17 +73,19 @@ interactive|   -li  | list mode but with edit/read/make options
 _________________________________________________________________
 ```
 **Examples:**
+
 ```noteman -rs PHYS -n Entropy``` will open up the notes titled "Entropy" under the subject "PHYS" in your pdf viewer
 
 ```noteman -es HIST -n Industrialization``` will edit the notes titled "Industrialization" under the subject "HIST" in your text editor
 
 ```noteman -ds MATH -n Optimization``` will prompt the user y/n if they would like to delete the notes titled "Optimization" under the subject "MATH"
 
-```noteman -ms ELEN -c ch6 -n Impedance_Matching``` will create a new notespace titled "Impedance_Matching" under subject ELEN and chapter "ch6", creating all necessary parent directories in the process
+```noteman -ms ELEN -c ch6 -n Impedance_Matching``` will create a new notespace titled "Impedance_Matching" under subject "ELEN" and chapter "ch6", creating all necessary parent directories in the process
 
 ```noteman -li``` will list all of your notes in interactive mode
 
 ***In interactive mode:***
+
 All commands follow the format ```cmd arg1 arg2 arg3```, or you may optionally type ```up``` to move up a directory.
 
 - Commands are the same as the ones from above just not as a flag (ex. read, write, make, list, delete)
@@ -103,5 +105,7 @@ To create a subject exclusive template follow these steps:
 
 1. Create a new directory in ```.config/noteman/templates/``` that shares the same name as the directory for that subject in your notes
   - ex. ```.../templates/PHYS```
+
 2. Inside of your new directory, create a new file called ```template.tex``` and add whatever you want to include in your template.
+
 3. If your template requires any custom .sty files, create another directory called ```style_files``` and place any of the .sty files your template requires. If the script detects anything inside of that directory, then it will automatically create symbolic links to every .sty file it found, meaning that including the full path in your \usepackage statement is unnecessary.
