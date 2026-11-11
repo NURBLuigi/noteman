@@ -50,7 +50,7 @@ latex_program=pdf
 ```
 
 ### Basic usage
-For optimal organization, all notes follow the template:
+For optimal organization, all notes follow the structure:
 ```bash
 ├── SUBJECT
 │   ├── CHAPTER
