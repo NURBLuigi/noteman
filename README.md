@@ -59,7 +59,7 @@ For optimal organization, all notes follow the structure:
 ```
 
 Here is the screen for general usage:
-```bash
+```
 Usage:
 noteman <mode> -s <subject> -c <chapter> (only required for make mode) -n <note>
 _________________________________________________________________
