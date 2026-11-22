@@ -53,7 +53,7 @@ latex_program=pdf
 
 ### Basic usage
 For optimal organization, all notes follow the template:
-```bash
+```
 ├── SUBJECT
 │   ├── CHAPTER
 │   │   ├── NOTES
@@ -61,7 +61,7 @@ For optimal organization, all notes follow the template:
 ```
 
 Here is the screen for general usage:
-```bash
+```
 Usage:
 noteman <mode> -s <subject> -c <chapter> (only required for make mode) -n <note> -M <commit message> (only for pushing notes to your github repo)
 ╭───────────┬────────┬─────────────────────────────────────────────────────────────────────╮
