@@ -1,5 +1,5 @@
 # Noteman
-An lightweight command line notes manager made for college students writing their notes in LaTeX
+A lightweight command line notes manager made for college students writing their notes in LaTeX
 
 ## Features
 - Edit/read/create/delete notespaces without the friction of command line navigation
