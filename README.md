@@ -32,6 +32,8 @@ noteman
 ```
 and all necessary configuration variables will be generated in ```~/.config/noteman.conf```
 
+You will then be asked whether or not you want to clone notes over from an existing GitHub repository. This is primarily for users who already have a private repository for storing their notes and would like to edit across multiple devices. If this is your first time running the script, choose 'n' and your files will be stored locally. For instructions about syncing with a private repository, see [Syncing Across Multiple Devices with GitHub](#Syncing-Across-Multiple-Devices-with-GitHub).
+
 It is recommended to go on and edit the configuration file to your likings especially if you do not want your notes stored in your home directory or you use a text editor/pdf viewer other than vim or zathura.
 
 **Default configuration:**
