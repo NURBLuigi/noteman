@@ -54,6 +54,7 @@ make_template() {
   mkdir -p $root_dir/.templates/.default/style_files/
   cd $root_dir/.templates/.default
   touch template.tex
+  touch style_files/.keep # Keep style_files directory
 
   echo "% Default notes template" >>template.tex
   echo "\documentclass[12pt]{article}" >>template.tex
