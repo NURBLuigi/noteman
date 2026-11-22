@@ -150,8 +150,9 @@ If you already have a Notes directory, you may convert it to a git repository an
 
 Now whenever you run ```noteman -p```, all of your notes will be pushed onto your private repository. One of the many benefits of this is the access to backups. For instance, if you accidentally delete all of your notes from a specific subject or make a change that you did not intend, simply run ```noteman -R``` and your notes will be restored to the previous commit.
 
->[!NOTE] You may optionally auto-push your notes to the repo whenever you close your editor by adding ```gh_autopush=1```
->to ```~/.config/noteman.conf```.
+> [!NOTE]
+> You may optionally auto-push your notes to the repo whenever you close your editor by adding ```gh_autopush=1```
+> to ```~/.config/noteman.conf```.
 
 ### Syncing Notes with Another Device
 Another benefit of storing your notes on a private repository is the ability to edit notes across multiple devices:
