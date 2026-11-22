@@ -80,6 +80,7 @@ noteman <mode> -s <subject> -c <chapter> (only required for make mode) -n <note>
 ╰───────────┴────────┴─────────────────────────────────────────────────────────────────────╯
 ```
 **Examples:**
+
 ```noteman -rs PHYS -n Entropy``` will open up the notes titled "Entropy" under the subject "PHYS" in your pdf viewer
 
 ```noteman -es HIST -n Industrialization``` will edit the notes titled "Industrialization" under the subject "HIST" in your text editor
