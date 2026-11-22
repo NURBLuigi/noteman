@@ -157,7 +157,7 @@ Now whenever you run ```noteman -p```, all of your notes will be pushed onto you
 ### Syncing Notes with Another Device
 Another benefit of storing your notes on a private repository is the ability to edit notes across multiple devices:
 
-1. Follow the same steps listed in generating an ssh key to give your new device remote access to your private GitHub repositories.
+1. Follow the same steps listed in [generating an ssh key](#Generating-an-ssh-key) to give your new device remote access to your private GitHub repositories.
 
 2. Run ```noteman``` and you will be asked if you want to clone from an existing repository. Choose 'Y'.
 
