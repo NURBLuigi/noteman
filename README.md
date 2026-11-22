@@ -20,7 +20,7 @@ An lightweight command line notes manager made for college students writing thei
 ### Manual
 ```bash
 mkdir -p ~/.local/bin
-curl -o ~/.local/bin/noteman https://raw.githubusercontent.com/NURBLuigi/noteman/noteman.sh
+curl -o ~/.local/bin/noteman https://raw.githubusercontent.com/NURBLuigi/noteman/main/noteman.sh
 chmod +x ~/.local/bin/noteman
 ```
 
