@@ -151,12 +151,13 @@ create_repo() {
 
 # Push notes to your private github repository (requires ssh key)
 push_notes() {
+  echo $1
   curdir=$(pwd)
   cd $root_dir
 
   git add .
   if [ $1 ]; then
-    git commit -m "$1"
+    git commit -m $1
   else
     git commit -m "Updated notespaces"
   fi
@@ -351,7 +352,7 @@ if [ "$push_mode" = 'true' ]; then
   fi
 
   echo "Commiting updated notespace..."
-  push_notes $commit_message
+  push_notes "$commit_message"
   exit 1
 fi
 
