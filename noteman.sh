@@ -151,7 +151,6 @@ create_repo() {
 
 # Push notes to your private github repository (requires ssh key)
 push_notes() {
-  echo $1
   curdir=$(pwd)
   cd $root_dir
 
